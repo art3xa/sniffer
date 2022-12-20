@@ -1,9 +1,9 @@
 import sys
-from src.modules.helpers.PcapWriter import PcapWriter
-from src.modules.logic.Program import Program
-from src.modules.helpers.SocketAPI import SocketAPI
-from src.modules.helpers.Timer import Timer
-from src.modules.console.ArgParser import ArgParser
+from src.modules.helpers.pcap_writer import PcapWriter
+from src.modules.logic.program import Program
+from src.modules.helpers.socket_api import SocketAPI
+from src.modules.helpers.timer import Timer
+from src.modules.console.arg_parser import ArgParser
 
 
 def main():

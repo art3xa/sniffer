@@ -1,6 +1,6 @@
-from src.modules.logic.Parser import ParsedPacket
-from src.modules.helpers.Timer import Timer
-from src.modules.console.Visualiser import Visualiser
+from src.modules.logic.protocols_parser import ParsedPacket
+from src.modules.helpers.timer import Timer
+from src.modules.console.visualiser import Visualiser
 
 
 class Program:

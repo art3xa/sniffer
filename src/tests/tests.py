@@ -1,6 +1,6 @@
 import unittest
-from src.modules.logic.Parser import ProtoParser, ParsedPacket
-from src.modules.helpers.PcapWriter import PcapWriter
+from src.modules.logic.protocols_parser import ProtoParser, ParsedPacket
+from src.modules.helpers.pcap_writer import PcapWriter
 
 
 class ParserTests(unittest.TestCase):
